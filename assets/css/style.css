@@ -219,10 +219,6 @@ img {
 .home__blob-img {
   width: 400px;
   border-radius: 0.5rem;
-  justify-self: center;
-  mix-blend-mode:multiply;
-  /* mix-blend-mode: luminosity; */
-  /* mix-blend-mode: overlay; */
 }
 
 /*BUTTONS*/
