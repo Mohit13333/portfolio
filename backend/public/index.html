@@ -221,19 +221,18 @@
 
         <div class="contact__container bd-grid">
           <form
-            action="https://formsubmit.co/mohitkumar143680@gmail.com"
             method="post"
             class="contact__form"
             enctype="application/x-www-form-urlencoded"
           >
             <label for="input"></label>
-              <input type="text" id="input" placeholder="Name" class="contact__input" />
+              <input type="text" id="input" name="Name" placeholder="Name" class="contact__input" />
             <label for="mail">
-              <input type="mail" id="mail" placeholder="Email" class="contact__input" />
+              <input type="mail" name="email" id="Email" placeholder="Email" class="contact__input" />
             </label>
             <label for="text">
               <textarea
-                name=""
+                name="Message"
                 id="text"
                 cols="0"
                 rows="10"
@@ -241,7 +240,7 @@
               ></textarea>
             <label for="send"></label>
               <input
-                type="button"
+                type="submit"
                 id="send"
                 value="Send"
                 class="contact__button button"
