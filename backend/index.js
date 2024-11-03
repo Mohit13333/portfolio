@@ -9,7 +9,7 @@ server.use(express.static("public"));
 server.use(express.json());
 server.use(urlencoded({ extended: true }));
 server.use(cors());
-server.use("/",router)
+server.use("/contact",router)
 connectDB()
   .then(() => {
     server.listen(process.env.PORT, () => {

@@ -221,22 +221,24 @@
 
         <div class="contact__container bd-grid">
           <form
+            action="/contact"
             method="post"
             class="contact__form"
             enctype="application/x-www-form-urlencoded"
           >
             <label for="input"></label>
-              <input type="text" id="input" name="Name" placeholder="Name" class="contact__input" />
+              <input type="text" id="input" name="name" placeholder="Name" required class="contact__input" />
             <label for="mail">
-              <input type="mail" name="email" id="Email" placeholder="Email" class="contact__input" />
+              <input type="mail" name="email" id="email" placeholder="Email" required class="contact__input" />
             </label>
             <label for="text">
               <textarea
-                name="Message"
+                name="message"
                 id="text"
                 cols="0"
                 rows="10"
                 class="contact__input"
+                required
               ></textarea>
             <label for="send"></label>
               <input

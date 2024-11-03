@@ -1,1 +1,1 @@
-export const DB_NAME="Contact-Form";
+export const DB_NAME="ContactForm";
