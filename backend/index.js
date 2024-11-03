@@ -13,7 +13,7 @@ server.use("/contact",router)
 connectDB()
   .then(() => {
     server.listen(process.env.PORT, () => {
-      console.log("listening on port " + process.env.PORT);
+      console.log("listening on port http://localhost:" + process.env.PORT);
     });
   })
   .catch((err) => {
